@@ -13,21 +13,17 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
-    "element-plus": "^2.2.12",
     "regenerator-runtime": "^0.13.9",
     "sass": "^1.54.2",
     "vue": "^3.0.0-beta.18",
     "vue-draggable-next": "^2.1.1",
     "vue-router": "^4.0.0-beta.1",
-    "vuedraggable": "^2.24.3",
-    "vuetify": "^2.6.8",
     "vuex": "^4.0.0-beta.4"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.18.10",
     "@babel/preset-typescript": "^7.10.4",
-    "@vue/compiler-sfc": "^3.0.0-beta.18",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.5",
     "babel-polyfill": "^6.26.0",
