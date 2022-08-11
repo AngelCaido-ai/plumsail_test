@@ -6,7 +6,6 @@
 ## Includes
 
 - Vue 3.0.0-beta.18
-- Vue Router 4.0.0-beta.1
 - Vuex 4.0.0-beta.4
 - Typescript 3.9.6
 - Babel 7.10.4
