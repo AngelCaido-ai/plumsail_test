@@ -1,3 +1,8 @@
+## Warning
+
+При разработке на Vue 3 я не учёл того факта, что 3 версия ещё не поддерживает web-компоненты. 
+(Vue 3 support of the web component target is still under development)
+
 ## Includes
 
 - Vue 3.0.0-beta.18
