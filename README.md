@@ -1,7 +1,3 @@
-# Vue 3 webpack boilerplate
-
-This is preview version Vue 3, DO NOT USE IN PRODUCTION!
-
 ## Includes
 
 - Vue 3.0.0-beta.18
@@ -14,18 +10,15 @@ This is preview version Vue 3, DO NOT USE IN PRODUCTION!
 
 ## Project setup
 ```
-npm install
+    npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+    npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+    npm run build
 ```
-
-### To Do
-- webpack 5
