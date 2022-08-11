@@ -14,7 +14,7 @@ export const GetCityData = async (city_name?: string): Promise<CityDataResponse>
 }
 
 export const GetWeather = async ({ lat, lon }: Coord): Promise<WeatherResponse> => {
-    return await axios.get(`${URL}/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}`)
+    return await axios.get(`${URL}/data/2.5/weather?lat=${lat}&units=metric&lon=${lon}&appid=${API_KEY}`)
         .then((response) => {
             return response.data   
         })
