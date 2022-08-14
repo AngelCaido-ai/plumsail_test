@@ -18,16 +18,13 @@ const mutations = {
     const findDublicate = state.weatherList.find(city => city.id === weather.id)
     if(!findDublicate){
       state.weatherList = [...state.weatherList, weather]
-      localStorage.setItem('weatherList', JSON.stringify(state.weatherList))
     }
   },
   DELETE_CITY: (state: State, id: number) => {
     state.weatherList = state.weatherList.filter(city => city.id !== id)
-    localStorage.setItem('weatherList', JSON.stringify(state.weatherList))
   },
   CHANGE_CITIES_STATE: (state: State, weather: Array<WeatherResponse>) => {
     state.weatherList = weather
-    localStorage.setItem('weatherList', JSON.stringify(state.weatherList))
   },
   SET_ERROR: (state: State, errorString: string) => {
     state.error = errorString

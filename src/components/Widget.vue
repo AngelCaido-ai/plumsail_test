@@ -55,6 +55,12 @@ export default defineComponent({
     }
   },
 
+  watch: {
+    weatherList(val) {
+      localStorage.setItem('weatherList', JSON.stringify(val))
+    }
+  },
+
   methods: {
 
     ...mapActions({
